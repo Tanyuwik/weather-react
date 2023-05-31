@@ -1,0 +1,48 @@
+.Weather {
+  max-width: 600px;
+  padding: 20px;
+  border: 1px solid #dadde1;
+  border-radius: 5px;
+  margin: 25px auto;
+  background: linear-gradient(
+    114.2deg,
+    rgb(121, 194, 243) 22.6%,
+    rgb(255, 180, 239) 67.7%
+  );
+}
+
+.Weather h1 {
+  font-family: "Poppins", sans-serif;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 600;
+  color: rgba(134, 0, 0, 0.793);
+  background-color: rgb(255, 224, 239);
+}
+
+.Weather ul {
+  font-family: "Unbounded", cursive;
+  list-style: none;
+  padding-left: 0;
+  font-size: 16px;
+  font-weight: 300;
+  text-decoration: underline;
+}
+
+.Weather li:first-letter {
+  text-transform: capitalize;
+}
+
+.Weather .current-temperature {
+  color: #303030;
+  font-size: 62px;
+  line-height: 1;
+  font-weight: 500;
+}
+
+.Weather .weather-temperature .units {
+  position: relative;
+  font-size: 16px;
+  top: -32px;
+}
