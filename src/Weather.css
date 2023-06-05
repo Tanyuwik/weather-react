@@ -1,9 +1,7 @@
 .Weather {
-  max-width: 600px;
   padding: 20px;
   border: 1px solid #dadde1;
   border-radius: 5px;
-  margin: 25px auto;
   background: linear-gradient(
     114.2deg,
     rgb(121, 194, 243) 22.6%,
@@ -34,15 +32,23 @@
   text-transform: capitalize;
 }
 
+.Weather .weather-temperature {
+  width: 64px;
+  height: 64px;
+}
+
 .Weather .current-temperature {
   color: #303030;
-  font-size: 62px;
+  font-size: 60px;
   line-height: 1;
   font-weight: 500;
 }
 
 .Weather .weather-temperature .units {
   position: relative;
-  font-size: 16px;
+  font-weight: 400;
+  font-size: 18px;
   top: -32px;
+  margin-left: 5px;
+  line-height: 1;
 }

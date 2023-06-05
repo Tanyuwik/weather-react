@@ -22,7 +22,7 @@ export default function Weather() {
                 type="search"
                 placeholder="Type a city"
                 className="form-control"
-                autoComplete="off"
+                autoFocus="on"
               />
             </div>
             <div className="col-3">
@@ -64,15 +64,6 @@ export default function Weather() {
             </ul>
           </div>
         </div>
-        <div className="url-code mt-4"></div>
-        <a
-          href="https://github.com/Tanyuwik/weather-react"
-          target="_blank"
-          rel="noreferrer"
-          className="website-url">
-          Open-source code
-        </a>
-        <span className="name "> by Tetiana Zlyhostieva</span>
       </div>
     </div>
   );
