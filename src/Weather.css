@@ -2,21 +2,30 @@
   padding: 20px;
   border: 1px solid #dadde1;
   border-radius: 5px;
-  background: linear-gradient(
-    114.2deg,
-    rgb(121, 194, 243) 22.6%,
-    rgb(255, 180, 239) 67.7%
-  );
+  background: #fff;
+}
+
+.Weather .btn-branding {
+  color: #fff;
+  background-color: #ff9900;
+  border-radius: 4px;
+  font-family: "Unbounded", cursive;
+  font-size: 14px;
+  line-height: 23px;
+  font-weight: 400;
+  transition: 0.5s;
+  cursor: pointer;
 }
 
 .Weather h1 {
   font-family: "Poppins", sans-serif;
   border-radius: 5px;
+  padding: 10px;
   text-align: center;
   font-size: 36px;
   font-weight: 600;
-  color: rgba(134, 0, 0, 0.793);
-  background-color: rgb(255, 224, 239);
+  color: #ff9900;
+  background-color: #fdeed8;
 }
 
 .Weather ul {
@@ -52,4 +61,10 @@
   top: -32px;
   margin-left: 5px;
   line-height: 1;
+}
+
+@media (max-width: 900px) {
+  .Weather .btn-branding {
+    font-size: 10px;
+  }
 }
