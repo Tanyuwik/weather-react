@@ -5,16 +5,24 @@ import "./App.css";
 export default function App() {
   return (
     <div className="App">
-      <div class="container">
+      <div className="container">
         <Weather defaultCity="New York" />
         <footer>
-          This project was coded by Tetiana Zlyhostieva and is{" "}
+          This project was coded by{" "}
+          <a
+            href="https://www.linkedin.com/in/tetiana-zlyhostieva-b8b962218/"
+            target="_blank"
+            rel="noreferrer"
+            className="website-url">
+            Tetiana Zlyhostieva
+          </a>{" "}
+          and is open-source code{" "}
           <a
             href="https://github.com/Tanyuwik/weather-react"
             target="_blank"
             rel="noreferrer"
             className="website-url">
-            Open-source code on GitHub
+            on GitHub
           </a>
         </footer>
       </div>
